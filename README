@@ -1,0 +1,20 @@
+Nadav Geva, nadavgeva4@gmail.com
+Or Sagy, orlusai@gmail.com
+===============================================================================
+
+                           Project 10 - Compiler - Syntax Analysis
+                           ---------------------------------------
+
+
+Submitted Files
+---------------
+| README - This file!
+| Makefile - The makefile for the project
+| JackAnalyzer - An execution script for the analyzer
+| JackAnalyzer.py - A Jack analyzer implemented in python
+| JackTokenizer.py - The tokenizer for the Jack compiler/analyzer
+| CompilationEngine.py - The compilation engine for the Jack compiler
+
+Remarks
+-------
+In order to run the project, you must make the project first :)
