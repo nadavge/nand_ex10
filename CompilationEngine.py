@@ -224,13 +224,8 @@ class CompilationEngine:
 			# else
 			self.tokenizer.advance()
 			self.terminal_tag(token)
-			# (
-			token = self.terminal_tag()
 			
 			self.compile_expression()
-
-			# )
-			token = self.terminal_tag()
 
 			# {
 			token = self.terminal_tag()
