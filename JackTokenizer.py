@@ -12,12 +12,12 @@ class JackTokenizer:
 	RE_STRING = '"[^"]*"'
 	RE_IDENTIFIER = '[A-z_][A-z_\d]*'
 	RE_SYMBOL = '\{|\}|\(|\)|\[|\]|\.|,|;|\+|-|\*|/|&|\||\<|\>|=|~'
-	RE_KEYWORD = '|'.join(keyword for keyword in 
+	RE_KEYWORD = '^(' + '|'.join(keyword for keyword in 
 		[
 			'class','method','constructor','function','field','static','var',
 			'int','char','boolean','void','true','false','null','this','let',
 			'do','if','else','while','return'
-		])
+		]) + ')$'
 
 	# A list of tuples of a regular expression and its type as string
 	LEXICAL_TYPES = [
